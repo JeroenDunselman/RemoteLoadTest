@@ -22,6 +22,7 @@ class ViewItemViewController: UIViewController, UITextViewDelegate {
 //        guard let newEntry = entryText.text else  {
 //            return
 //        }
+        //change
 //
 //        item.name = newEntry
 //        (UIApplication.shared.delegate as! AppDelegate).saveContext()

@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9949A1721FCD03500583490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A1621FCD03500583490 /* AppDelegate.swift */; };
 		A9949A1921FCD03500583490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A1821FCD03500583490 /* ViewController.swift */; };
-		A9949A1C21FCD03500583490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9949A1A21FCD03500583490 /* Main.storyboard */; };
 		A9949A1E21FCD03900583490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9949A1D21FCD03900583490 /* Assets.xcassets */; };
 		A9949A2121FCD03900583490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9949A1F21FCD03900583490 /* LaunchScreen.storyboard */; };
+		A9949A2921FCD3EF00583490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9949A2821FCD3EF00583490 /* Main.storyboard */; };
+		A9949A3721FCD42C00583490 /* ViewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A2A21FCD42A00583490 /* ViewItemViewController.swift */; };
+		A9949A3821FCD42C00583490 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A2B21FCD42B00583490 /* SignUpViewModel.swift */; };
+		A9949A3921FCD42C00583490 /* DisplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A2C21FCD42B00583490 /* DisplayViewModel.swift */; };
+		A9949A3A21FCD42C00583490 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A2D21FCD42B00583490 /* LoginViewModel.swift */; };
+		A9949A3B21FCD42C00583490 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A2E21FCD42B00583490 /* CurrentUser.swift */; };
+		A9949A3C21FCD42C00583490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A2F21FCD42B00583490 /* AppDelegate.swift */; };
+		A9949A3D21FCD42C00583490 /* UpdateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A3021FCD42B00583490 /* UpdateItemViewController.swift */; };
+		A9949A3E21FCD42C00583490 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A3121FCD42B00583490 /* SignUpViewController.swift */; };
+		A9949A3F21FCD42C00583490 /* DisplayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A3221FCD42B00583490 /* DisplayTableViewController.swift */; };
+		A9949A4021FCD42C00583490 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A3321FCD42B00583490 /* Location.swift */; };
+		A9949A4121FCD42C00583490 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A3421FCD42B00583490 /* StartViewController.swift */; };
+		A9949A4221FCD42C00583490 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A3521FCD42B00583490 /* LoginViewController.swift */; };
+		A9949A4321FCD42C00583490 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9949A3621FCD42B00583490 /* StartViewModel.swift */; };
+		A9949A4721FCD43B00583490 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9949A4421FCD43A00583490 /* Info.plist */; };
+		A9949A4821FCD43B00583490 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9949A4521FCD43B00583490 /* CoreDataExample.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9949A1321FCD03500583490 /* RemoteLoadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteLoadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9949A1621FCD03500583490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9949A1821FCD03500583490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9949A1B21FCD03500583490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9949A1D21FCD03900583490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9949A2021FCD03900583490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9949A2221FCD03900583490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9949A2821FCD3EF00583490 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A9949A2A21FCD42A00583490 /* ViewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewItemViewController.swift; sourceTree = "<group>"; };
+		A9949A2B21FCD42B00583490 /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		A9949A2C21FCD42B00583490 /* DisplayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewModel.swift; sourceTree = "<group>"; };
+		A9949A2D21FCD42B00583490 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A9949A2E21FCD42B00583490 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		A9949A2F21FCD42B00583490 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../dutuzip/DuTu 2/DuTu/AppDelegate.swift"; sourceTree = "<group>"; };
+		A9949A3021FCD42B00583490 /* UpdateItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateItemViewController.swift; sourceTree = "<group>"; };
+		A9949A3121FCD42B00583490 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A9949A3221FCD42B00583490 /* DisplayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayTableViewController.swift; sourceTree = "<group>"; };
+		A9949A3321FCD42B00583490 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A9949A3421FCD42B00583490 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A9949A3521FCD42B00583490 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A9949A3621FCD42B00583490 /* StartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		A9949A4421FCD43A00583490 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../dutuzip/DuTu 2/DuTu/Info.plist"; sourceTree = "<group>"; };
+		A9949A4621FCD43B00583490 /* CoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataExample.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +82,26 @@
 		A9949A1521FCD03500583490 /* RemoteLoadTest */ = {
 			isa = PBXGroup;
 			children = (
-				A9949A1621FCD03500583490 /* AppDelegate.swift */,
 				A9949A1821FCD03500583490 /* ViewController.swift */,
-				A9949A1A21FCD03500583490 /* Main.storyboard */,
 				A9949A1D21FCD03900583490 /* Assets.xcassets */,
+				A9949A2821FCD3EF00583490 /* Main.storyboard */,
 				A9949A1F21FCD03900583490 /* LaunchScreen.storyboard */,
+				A9949A4521FCD43B00583490 /* CoreDataExample.xcdatamodeld */,
 				A9949A2221FCD03900583490 /* Info.plist */,
+				A9949A2F21FCD42B00583490 /* AppDelegate.swift */,
+				A9949A2E21FCD42B00583490 /* CurrentUser.swift */,
+				A9949A3221FCD42B00583490 /* DisplayTableViewController.swift */,
+				A9949A2C21FCD42B00583490 /* DisplayViewModel.swift */,
+				A9949A3321FCD42B00583490 /* Location.swift */,
+				A9949A3521FCD42B00583490 /* LoginViewController.swift */,
+				A9949A2D21FCD42B00583490 /* LoginViewModel.swift */,
+				A9949A3121FCD42B00583490 /* SignUpViewController.swift */,
+				A9949A2B21FCD42B00583490 /* SignUpViewModel.swift */,
+				A9949A3421FCD42B00583490 /* StartViewController.swift */,
+				A9949A3621FCD42B00583490 /* StartViewModel.swift */,
+				A9949A3021FCD42B00583490 /* UpdateItemViewController.swift */,
+				A9949A2A21FCD42A00583490 /* ViewItemViewController.swift */,
+				A9949A4421FCD43A00583490 /* Info.plist */,
 			);
 			path = RemoteLoadTest;
 			sourceTree = "<group>";
@@ -122,9 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9949A4721FCD43B00583490 /* Info.plist in Resources */,
+				A9949A2921FCD3EF00583490 /* Main.storyboard in Resources */,
 				A9949A2121FCD03900583490 /* LaunchScreen.storyboard in Resources */,
 				A9949A1E21FCD03900583490 /* Assets.xcassets in Resources */,
-				A9949A1C21FCD03500583490 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +178,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9949A3721FCD42C00583490 /* ViewItemViewController.swift in Sources */,
+				A9949A4021FCD42C00583490 /* Location.swift in Sources */,
+				A9949A4821FCD43B00583490 /* CoreDataExample.xcdatamodeld in Sources */,
+				A9949A3821FCD42C00583490 /* SignUpViewModel.swift in Sources */,
+				A9949A3D21FCD42C00583490 /* UpdateItemViewController.swift in Sources */,
 				A9949A1921FCD03500583490 /* ViewController.swift in Sources */,
-				A9949A1721FCD03500583490 /* AppDelegate.swift in Sources */,
+				A9949A4121FCD42C00583490 /* StartViewController.swift in Sources */,
+				A9949A3F21FCD42C00583490 /* DisplayTableViewController.swift in Sources */,
+				A9949A4321FCD42C00583490 /* StartViewModel.swift in Sources */,
+				A9949A3A21FCD42C00583490 /* LoginViewModel.swift in Sources */,
+				A9949A3C21FCD42C00583490 /* AppDelegate.swift in Sources */,
+				A9949A3E21FCD42C00583490 /* SignUpViewController.swift in Sources */,
+				A9949A3B21FCD42C00583490 /* CurrentUser.swift in Sources */,
+				A9949A4221FCD42C00583490 /* LoginViewController.swift in Sources */,
+				A9949A3921FCD42C00583490 /* DisplayViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A9949A1A21FCD03500583490 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9949A1B21FCD03500583490 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9949A1F21FCD03900583490 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,6 +384,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9949A4521FCD43B00583490 /* CoreDataExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9949A4621FCD43B00583490 /* CoreDataExample.xcdatamodel */,
+			);
+			currentVersion = A9949A4621FCD43B00583490 /* CoreDataExample.xcdatamodel */;
+			path = CoreDataExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A9949A0B21FCD03400583490 /* Project object */;
 }
